@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "HoReSa",
+    "slug": "horesa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logohoresa.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.horesa.app"
+    },
+    "android": {
+      "package": "com.horesa.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logohoresa.png",
+        "backgroundColor": "#142608"
+      }
+    },
+    "plugins": [
+      "expo-font",
+      "expo-video"
+    ]
+  }
+}
